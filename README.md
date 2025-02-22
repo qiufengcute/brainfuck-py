@@ -1,4 +1,5 @@
 # brainfuck-py
+[en] now     [[zh_cn] click to](./README_zh-cn.md)
 This is a brainfuck produced by Python.<br>
 parameters:<br>
 | 参数                   | 功能                                          | 示例         |
