@@ -19,6 +19,9 @@ import time
 import tkinter as tk
 from tkinter import filedialog
 
+def exit():
+    sys.exit()
+
 def reset_output(print_list):
     global memory_wide,memory_long,memory
     os.system('cls' if os.name == 'nt' else 'clear')
