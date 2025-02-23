@@ -50,7 +50,7 @@ if "--speed" in sys.argv:
     except:
         wait_sec = 0.1
 if "--f" in sys.argv:
-    file = sys.argv[sys.argv.index("-f") + 1]
+    file = sys.argv[sys.argv.index("--f") + 1]
     try:
         file_end_text = file[-2:]
         if file_end_text != 'bf' and file_end_text != 'Bf' and file_end_text != 'bF' and file_end_text != 'BF':
@@ -59,7 +59,7 @@ if "--f" in sys.argv:
         file = None
 if "--mem" in sys.argv:
     try:
-        memory_long,memory_wide = sys.argv[sys.argv.index("-mem") + 1].split('x')
+        memory_long,memory_wide = sys.argv[sys.argv.index("--mem") + 1].split('x')
         memory_long = int(memory_long)
         memory_wide = int(memory_wide)
     except:
